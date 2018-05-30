@@ -1,0 +1,61 @@
+body {
+  font-size: 0.9rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.display-none {
+  display: none;
+}
+
+.combo-list {
+  display: none;
+}
+
+#loading-wrapper {
+  margin: 60px 0;
+  font-size: 1.2em;
+  -webkit-animation: color-change 2s infinite;
+  -moz-animation: color-change 2s infinite;
+  -o-animation: color-change 2s infinite;
+  -ms-animation: color-change 2s infinite;
+  animation: color-change 2s infinite;
+}
+
+.main-wrapper {
+  margin-top: 40px;
+}
+
+@-webkit-keyframes color-change {
+    0% { opacity: 1.0; }
+    75% { opacity: 0.7; }
+    100% { opacity: 0; }
+}
+@-moz-keyframes color-change {
+  0% { opacity: 1.0; }
+  75% { opacity: 0.7; }
+  100% { opacity: 0; }
+}
+@-ms-keyframes color-change {
+  0% { opacity: 1.0; }
+  75% { opacity: 0.7; }
+  100% { opacity: 0; }
+}
+@-o-keyframes color-change {
+  0% { opacity: 1.0; }
+  75% { opacity: 0.7; }
+  100% { opacity: 0; }
+}
+@keyframes color-change {
+  0% { opacity: 1.0; }
+  75% { opacity: 0.7; }
+  100% { opacity: 0; }
+}
+
+#top-pizza-component {
+  margin: 40px;
+}
