@@ -16,7 +16,9 @@ I did not style much of the page and it's elements. Didn't use a CSS preprocesso
 
 ## Tech Notes
 
-First I retrieve all data from pizzas.json using react-context-api (providers / consumers). I then grab all arrays from that original json and push into a new array. Next I use map and reduce to create a readable object to sort the keys and values of the json. Last, I create a final array containing the required info containing the ranking, pizza topping names, and counter, which then get translated to the UI.  
+First I retrieve all data from pizzas.json using react-context-api (providers / consumers). I then grab all arrays from that original json and push into a new array. Next I use map and reduce to create a readable object to sort the keys and values of the json. Last, I create a final array containing the required info containing the ranking, pizza topping names, and counter, which then get translated to the UI.
+
+Because the json is very large in size, I placed a "Please wait. Data is loading..." message while the data is parsing to translate to the UI. Optimally, I would of parsed the data on the backend, store in a DB, and then feed into an API for the UI to consume. Processing on the frontend is not ideal for a large amount of data, even with "chunked" data.
 
 By,
 Chris Kennedy
